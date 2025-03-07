@@ -13,16 +13,39 @@ description = 'A simple global chat plugin for Velocity.'
 
 repositories {
     mavenCentral()
+    jcenter()
+
     maven {
         url 'https://ci.lucko.me/plugin/repository/everything/'
     }
 
     maven {
-        url 'https://repo.velocitypowered.com/snapshots/'
+        url 'https://repo.lucko.me/'
+    }
+
+    // // placeholders-common seems to have been removed from the lucko repo
+    flatDir {
+        dirs '../libs/'
+    }
+
+    maven {
+        url 'https://repo.papermc.io/snapshots/'
     }
 
     maven {
         url 'https://repo.essentialsx.net/n3fs/'
+    }
+	
+	maven {
+        url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
+    }
+	
+	maven {
+        url = 'https://nexus.lucko.me/repository/all/'
+    }
+	
+	maven {
+        url = 'https://nexus.lucko.me/service/rest/repository/browse/all/'
     }
 }
 
