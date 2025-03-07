@@ -1,7 +1,7 @@
 # gChat [![Build Status](https://img.shields.io/github/workflow/status/N3FS/gChat/Deploy%20to%20Bintray)](https://github.com/N3FS/gChat/releases)
 A simple global chat plugin for Velocity, based on [lucko/gChat](https://github.com/lucko/gChat).
 
-* **Downloads** - <https://github.com/N3FS/gChat/releases>
+* **Forked From** - <https://github.com/N3FS/gChat/>
 
 ## Features
 * Global chat channel throughout your network
